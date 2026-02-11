@@ -4,14 +4,14 @@ from os import environ
 import logging
 from logging.handlers import RotatingFileHandler
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-BOT_USERNAME = 'CantarellaBots'
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8351797978:AAGJSsM4yLY4k65sX_4W0hYhm7dC_ckKumo")
+BOT_USERNAME = 'Shouyo_Hinatabot'
+APP_ID = int(os.environ.get("APP_ID", "15191874"))
+API_HASH = os.environ.get("API_HASH", "3037d39233c6fad9b80d83bb8a339a07")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6789146594"))
 PORT = os.environ.get("PORT", "8080")
 DB_URL = os.environ.get("DB_URI", "")
-DB_NAME = os.environ.get("DB_NAME", "CantarellaBots")
+DB_NAME = os.environ.get("DB_NAME", "linksbot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 COMMAND_PHOTO = os.environ.get("COMMAND_PHOTO", "https://ibb.co/DHqBS4V7")  # Replace with your photo URL
 START_PIC = os.environ.get("START_PIC", "https://ibb.co/CsPWqnR4")
@@ -21,7 +21,7 @@ HELP_TXT =  os.environ.get("HELP_MESSAGE", "⁉️ Hᴇʟʟᴏ {mention} ~\n\n <
 FSUB_PIC = os.environ.get("FSUB_PIC", "https://ibb.co/DHqBS4V7")
 FSUB_LINK_EXPIRY = 300
 LOG_FILE_NAME = "CantarellaBots.txt"
-DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", ""))
+DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002466897783"))
 
 logging.basicConfig(
     level=logging.INFO,
