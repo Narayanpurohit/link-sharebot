@@ -10,7 +10,7 @@ APP_ID = int(os.environ.get("APP_ID", "15191874"))
 API_HASH = os.environ.get("API_HASH", "3037d39233c6fad9b80d83bb8a339a07")
 OWNER_ID = int(os.environ.get("OWNER_ID", "6789146594"))
 PORT = os.environ.get("PORT", "8080")
-DB_URL = os.environ.get("DB_URI", "")
+DB_URL = os.environ.get("DB_URI", "mongodb://hp108044:zWy9AuflXmsrAfSY@147.93.103.130:27017/?authSource=admin")
 DB_NAME = os.environ.get("DB_NAME", "linksbot")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 COMMAND_PHOTO = os.environ.get("COMMAND_PHOTO", "https://ibb.co/DHqBS4V7")  # Replace with your photo URL
