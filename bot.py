@@ -40,7 +40,7 @@ class Bot(Client):
                     caption=(
                         "**I ʀᴇsᴛᴀʀᴛᴇᴅ ᴀɢᴀɪɴ !**"),
                     reply_markup=InlineKeyboardMarkup(
-                        [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/CantarellaBots")]]
+                        [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url="https://t.me/AhjinAnime")]]
                     )
                 )
         except Exception as e:
