@@ -21,7 +21,7 @@ HELP_TXT =  os.environ.get("HELP_MESSAGE", "⁉️ Hᴇʟʟᴏ {mention} ~\n\n <
 FSUB_PIC = os.environ.get("FSUB_PIC", "https://wallpapers-clan.com/wp-content/uploads/2024/04/haikyuu-aesthetic-hinata-blue-desktop-wallpaper-cover.jpg")
 FSUB_LINK_EXPIRY = 300
 LOG_FILE_NAME = "CantarellaBots.txt"
-DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002299128264"))
+DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1001918482012"))
 
 logging.basicConfig(
     level=logging.INFO,
